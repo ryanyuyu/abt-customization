@@ -1,0 +1,29 @@
+#itemList {
+    height: 450px;
+}
+
+#itemList tr td {
+    font-size: 0.85em !important;
+}
+
+#itemList tr td:first-child {
+    max-width: 537px !important;
+}
+
+div[infinite-scroll-container*="itemList"] thead {
+    display: none !important;
+}
+
+project-tile .panel.ppm-project,
+.modal project-tile .panel.ppm-project {
+  height: auto !important;
+  width: 700px !important;
+}
+project-tile .panel.ppm-project .project-milestones,
+.modal project-tile .panel.ppm-project .project-milestones {
+  display: none;
+}
+project-tile .panel.ppm-project .ppm-project-efforts,
+.modal project-tile .panel.ppm-project .ppm-project-efforts {
+  display: none;
+}
